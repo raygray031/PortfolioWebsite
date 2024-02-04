@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0" />
+    <meta name="author" content="raygray" />
+
+    <!-- Primary Meta Tags -->
+    <title>Raygray Web Development | UI/UX DESIGNER</title>
+    <meta name="title" content="Raygray Web Development | UI/UX DESIGNER" />
+    <meta name="description" content="RAYGRAY website design and development service. Digital services include websites, apps, logos, maintenance, and more. Email for more info raygray031@gmail.com" />
+
+    <!-- CSS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" />
+    <link type="text/css" rel="stylesheet" href="css/app.min.css" />
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64756177-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-64756177-1');
+    </script>
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body data-spy="scroll" data-target="#nav" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <h2 data-aos="fade-up">Hello, my name is <span class="brand-color">Raygray</span>.</h2>
+            <h1 data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+                I'm a <span>Website Developer</span> and <span>UI/UX Designer</span> based in Your Dreams.
+            </h1>
+        </div>
+        <div class="hero-image" data-aos="zoom-out" data-aos-delay="1000" data-aos-duration="600">
+            <picture>
+                <source type="image/png" srcset="img/backgrounds/hero-bg.png 1080w, img/backgrounds/hero-bg.png" />
+                <source srcset="img/backgrounds/hero-bg.png 1080w, img/backgrounds/hero-bg.png" />
+                <img src="img/backgrounds/hero-bg.png" alt="raygray Web Development and ui/ux designer" />
+            </picture>
+        </div>
+    </header>
+
+    <div class="sticky-bar" data-aos="fade-down" data-aos-delay="1300">
+        <div class="brand">
+            <a href="https://www.raygray.tech"><span>raygray</span>.tech</a>
+        </div>
+        <div id="menu-toggle" class="menu-toggle" role="button" aria-label="toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav id="menu" class="menu">
+        <div class="menu-bg">
+            <picture>
+                <source type="image/png" srcset="img/backgrounds/hero-bg.png 768w, img/backgrounds/menu-bg.png" />
+                <source srcset="img/backgrounds/hero-bg.png 768w, img/backgrounds/menu-bg.png" />
+                <img src="img/backgrounds/menu-bg.png" alt="raygray" />
+            </picture>
+        </div>
+        <div class="menu-content">
+            <ul id="menu-link-list" class="menu-link-list">
+                <li>
+                    <a href="#services">Services<span>What I can do for you</span></a>
+                </li>
+                <li>
+                    <a href="#web-showcase">Projects<span>Past web & graphic work</span></a>
+                </li>
+                <li>
+                    <a href="#about">About<span>Why choose me for your project</span></a>
+                </li>
+                <li>
+                    <a href="#contact">Contact<span>Let's connect!</span></a>
+                </li>
+            </ul>
+            <ul class="menu-contact-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/ray-gray-9555411a1//" target="_blank" class="btn-circle" title="linkedin profile" rel="noopener">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+								<defs />
+								<path
+									d="M18.59 24h4.66a.75.75 0 00.75-.75c-.35-7.86 1.84-16.15-6.34-16.15-1.57 0-2.82.54-3.73 1.25 0-1.46-1.58-.66-5.22-.87a.75.75 0 00-.75.75C8.26 22.39 7.28 24 8.7 24h4.66c1.35 0 .5-1.9.75-8.19 0-2.6.75-3.1 2.05-3.1 1.43 0 1.67 1 1.67 3.23.26 6.16-.6 8.06.75 8.06zm-2.42-12.8c-4.5 0-3.55 4.95-3.55 11.3H9.46V8.98h2.97v1.3c0 .72 1.1 1.07 1.48.35a4.17 4.17 0 013.75-2.03c3.53 0 4.84 1.73 4.84 6.4v7.5h-3.16c0-7.14.76-11.3-3.17-11.3zM1.11 7.49C-.3 7.48.67 9.06.37 23.25c0 .41.34.75.75.75H5.8c1.42 0 .44-1.58.75-15.77 0-1.3-1.88-.53-5.42-.75zM5.04 22.5H1.87V8.98h3.17zM3.45 0c-4.57 0-4.55 6.93 0 6.93S8.03 0 3.45 0zm0 5.43c-2.57 0-2.59-3.93 0-3.93 2.6 0 2.57 3.93 0 3.93z"
+								/>
+							</svg>
+						</a>
+                </li>
+                <li>
+                    <a href="mailto:raygray031@gmail.com" class="btn-circle" title="email raygray"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path
+									d="M467 80.609H45c-24.813 0-45 20.187-45 45v260.782c0 24.813 20.187 45 45 45h422c24.813 0 45-20.187 45-45V125.609c0-24.813-20.187-45-45-45zm-5.873 30l-6.006 5.001-181.267 150.941c-10.346 8.614-25.364 8.614-35.708 0L56.879 115.61l-6.006-5.001h410.254zM30 132.267L177.692 255.25 30 353.543V132.267zm437 269.124H45c-7.248 0-13.31-5.168-14.699-12.011l171.445-114.101 17.204 14.326a57.79 57.79 0 0037.051 13.407 57.793 57.793 0 0037.051-13.407l17.204-14.326 171.444 114.1c-1.39 6.845-7.452 12.012-14.7 12.012zm15-47.848l-147.692-98.292L482 132.267v221.276z"
+								/>
+							</svg>
+						</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="services" class="section section-services">
+            <div class="container">
+                <header class="section-header">
+                    <h2 data-aos="fade-up">Digital <span>Services</span></h2>
+                    <p data-aos="zoom-out" data-aos-delay="250">I design and build digital solutions.</p>
+                </header>
+
+                <div class="services">
+                    <div class="service-outline-wrapper">
+                        <div class="service-outline" data-aos="fade" data-aos-anchor=".services">
+                            <div id="service-image" class="service-outline-img">
+                                <img class="service-image" src="img/svg/service-web.svg" alt="web development service" />
+                            </div>
+                            <div class="service-outline-divider">Digital Services</div>
+                            <ul id="service-list">
+                                <li><a href="#service-web" data-for="service-web" class="active">Website development</a></li>
+                                <li><a href="#service-ecom" data-for="service-ecom">UI/UX Design</a></li>
+                                <li><a href="#service-graphics" data-for="service-graphics">Graphics & print media</a></li>
+                                <li><a href="#service-support" data-for="service-support">Support & maintenance</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-blocks">
+                        <div id="service-web" class="service-block-content">
+                            <div class="service-block-image" data-aos="zoom-out">
+                                <img class="service-image" src="img/svg/service-web.svg" alt="digital services" />
+                            </div>
+                            <h3 data-aos="fade">Website development</h3>
+                            <h4 data-aos="fade" data-aos-delay="200">I create pixel perfect website design and code for personal or business websites.</h4>
+                            <p data-aos="fade" data-aos-delay="300">
+                                This includes hand crafted websites from top to bottom with the latest and greatest technology, or websites built around a CMS platform. From mobile, tablet to desktop, websites produced will be optimized for all devices.
+                            </p>
+                        </div>
+                        <div id="service-ecom" class="service-block-content">
+                            <div class="service-block-image" data-aos="zoom-out">
+                                <img class="service-image" src="img/svg/service-ecom.svg" alt="e-commerce service" />
+                            </div>
+                            <h3 data-aos="fade">UI/UX Design</h3>
+                            <h4 data-aos="fade" data-aos-delay="200">
+                                I create tailored UI/UX solutions that address your business requirements seamlessly.
+                            </h4>
+                            <p data-aos="fade" data-aos-delay="300">
+                                Whether it's an online storefront or a reservation system, these user-centric solutions prioritize intuitive content management, secure payment processing, an optimized customer experience, and a scalable infrastructure.
+                            </p>
+                        </div>
+                        <div id="service-graphics" class="service-block-content">
+                            <div class="service-block-image" data-aos="zoom-out">
+                                <img class="service-image" src="img/svg/service-graphics.svg" alt="graphic design service" />
+                            </div>
+                            <h3 data-aos="fade">Graphics & print media</h3>
+                            <h4 data-aos="fade" data-aos-delay="200">In addition to web, graphic design services are also available.</h4>
+                            <p data-aos="fade" data-aos-delay="300">
+                                This includes web and printed graphic design. Ranging from logos, package branding, business cards and event posters.
+                            </p>
+                        </div>
+                        <div id="service-support" class="service-block-content">
+                            <div class="service-block-image" data-aos="zoom-out">
+                                <img src="img/svg/service-support.svg" alt="maintenance service" />
+                            </div>
+                            <h3 data-aos="fade">Support & maintenance</h3>
+                            <h4 data-aos="fade" data-aos-delay="200">When I help you setup a project, this means full service help from end to end.</h4>
+                            <p data-aos="fade" data-aos-delay="300">
+                                I also offer services for content updates, website maintenance, hosting management, email support, and other technical support. For on ongoing projects or applications, this includes new features implementation, technical consultation, and other digital
+                                services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="web-showcase" class="section section-projects">
+            <div class="container">
+                <header class="section-header">
+                    <h2 data-aos="fade-up"><span>Web</span> Showcase</h2>
+                    <p data-aos="zoom-out" data-aos-delay="250">A selection of my past website and app projects.</p>
+                </header>
+                <div class="project-collection">
+                    <article class="project-block">
+                        <div class="project-block-img" data-aos="fade-up">
+                            <picture>
+                                <source srcset="img/projects/podhub.png" type="image/webp" />
+                                <source srcset="img/projects/podhub.png" type="image/jpeg" />
+                                <img src="img/projects/podhub.png" alt="project leadify" />
+                            </picture>
+                        </div>
+                        <div class="project-block-content project-leadify">
+                            <header class="project-block-header">
+                                <h4 data-aos="fade-up" data-aos-delay="300">PODCAST APP Ui/Ux Design</h4>
+                                <h3 data-aos="fade-up" data-aos-delay="400">Podhub</h3>
+                            </header>
+                            <p class="project-block-description" data-aos="fade-up" data-aos-delay="500">
+                                
+As the primary designer and UI/UX developer for PodHub, I spearheaded the creation of an engaging podcast app experience. Employing Figma for design and prototyping, I focused on crafting an intuitive and visually appealing user interface. Despite the simplicity of the tool, our collaborative efforts resulted in a compelling design that enhances the overall user experience. The culmination of this project showcased my dedication to creating seamless and aesthetically pleasing interfaces within the realm of podcast applications.
+                            </p>
+                            <div class="project-block-specs">
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="600">
+                                    <h5>Tech / Features</h5>
+                                    <ul>
+                                        <li>Android</li>
+ 
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="700">
+                                    <h5>Role</h5>
+                                    <ul>
+                                        <li>Product Design</li>
+                                        <li>UX Design</li>
+                                        <li>UI development</li>
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="800">
+                                    <h5>Year</h5>
+                                    <ul>
+                                        <li>2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-block">
+                        <div class="project-block-img" data-aos="fade-up">
+                            <picture>
+                                <source srcset="img/projects/petshop.png" type="image/webp" />
+                                <source srcset="img/projects/petshop.png" type="image/jpeg" />
+                                <img src="img/projects/petshop.png" alt="project-lifestyle" />
+                            </picture>
+                        </div>
+                        <div class="project-block-content project-lifestyle">
+                            <header class="project-block-header">
+                                <h4 data-aos="fade-up" data-aos-delay="300">PetShop App UI/Ux</h4>
+                                <h3 data-aos="fade-up" data-aos-delay="400">PetShop</h3>
+                            </header>
+                            <p class="project-block-description" data-aos="fade-up" data-aos-delay="500">
+                                As the lead designer and UI/UX developer for PetShop, I led the development of a captivating experience for a pet-related application. Utilizing Figma for design and prototyping, I concentrated on designing an intuitive and visually appealing user interface. Despite the simplicity of the tool, our team collaboration yielded a compelling design that elevates the overall user experience. The successful completion of this project underscores my commitment to crafting seamless and aesthetically pleasing interfaces within the pet industry application space.
+                            </p>
+                            <div class="project-block-specs">
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="600">
+                                    <h5>Tech / Features</h5>
+                                    <ul>
+                                        <li>Android</li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="700">
+                                    <h5>Role</h5>
+                                    <ul>
+                                        <li>Product Design</li>
+                                        <li>UX Design</li>
+                                        <li>UI development</li>
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="800">
+                                    <h5>Year</h5>
+                                    <ul>
+                                        <li>2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-block">
+                        <div class="project-block-img" data-aos="fade-up">
+                            <picture>
+                                <source srcset="img/projects/anthroshala.png" type="image/webp" />
+                                <source srcset="img/projects/anthroshala.png" type="image/jpeg" />
+                                <img src="img/projects/anthroshala.png" alt="project-myst" />
+                            </picture>
+                        </div>
+                        <div class="project-block-content project-myst">
+                            <header class="project-block-header">
+                                <h4 data-aos="fade-up" data-aos-delay="300">CMS WEBSITE FOR EDUCATIONAL INSTITUTE</h4>
+                                <h3 data-aos="fade-up" data-aos-delay="400">Anthroshala</h3>
+                            </header>
+                            <p class="project-block-description" data-aos="fade-up" data-aos-delay="500">
+                               AnthroShala, an educational platform, required a website to elucidate its offerings and enable users to engage with educational content through an integrated CMS. The website's core objective is to familiarize users with AnthroShala's educational resources, fostering an understanding of anthropological concepts and discussions. With roots in a successful educational initiative, AnthroShala aspires to expand its reach in North America, utilizing this CMS website as a user-friendly gateway to its educational offerings and community engagement.
+                            </p>
+                            <div class="project-block-specs">
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="600">
+                                    <h5>Tech / Features</h5>
+                                    <ul>
+                                        <li>HTML/CSS/JS</li>
+                                        <li>PHP</li>
+                                        <li>Wordpress</li>
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="700">
+                                    <h5>Role</h5>
+                                    <ul>
+                                        <li>UX Design</li>
+                                        <li>UI Development</li>
+                                        <li>Backend integration</li>
+                                        <li>Hosting & domain setup</li>
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="800">
+                                    <h5>Year</h5>
+                                    <ul>
+                                        <li>2023</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-block">
+                        <div class="project-block-img" data-aos="fade-up">
+                            <picture>
+                                <source srcset="img/projects/trustify.png" type="image/webp" />
+                                <source srcset="img/projects/trustify.png" type="image/jpeg" />
+                                <img src="img/projects/trustify.png" alt="project-envy" />
+                            </picture>
+                        </div>
+                        <div class="project-block-content project-envy">
+                            <header class="project-block-header">
+                                <h4 data-aos="fade-up" data-aos-delay="300">Agency website</h4>
+                                <h3 data-aos="fade-up" data-aos-delay="400">Trustify Vigil</h3>
+                            </header>
+                            <p class="project-block-description" data-aos="fade-up" data-aos-delay="500">
+                                I had the pleasure of working with Trustify, and I must say it's been a game-changer for both me and my clients. Trustify's commitment to online safety is unparalleled, and their website reflects this dedication seamlessly.
+                            </p>
+                            <div class="project-block-specs">
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="600">
+                                    <h5>Tech / Features</h5>
+                                    <ul>
+                                        <li>HTML/CSS/JS</li>
+                                        <li>WordPress</li>
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="700">
+                                    <h5>Role</h5>
+                                    <ul>
+                                        <li>UX Design</li>
+                                        <li>UI Development</li>
+                                        <li>Backend integration</li>
+                                        <li>Hosting & domain setup</li>
+                                    </ul>
+                                </div>
+                                <div class="project-spec-block" data-aos="fade" data-aos-delay="800">
+                                    <h5>Year</h5>
+                                    <ul>
+                                        <li>2023</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="graphics-showcase" class="section section-graphics">
+            <div class="container">
+                <header class="section-header">
+                    <h2 data-aos="fade-up"><span>Graphics</span> Showcase</h2>
+                    <p data-aos="zoom-out" data-aos-delay="250">Check out some of my branding and print work.</p>
+                </header>
+            </div>
+            <div class="graphics-collection" data-aos="fade-up">
+                <div class="graphic-block">
+                    <a class="graphic-block-toggle" data-micromodal-trigger="modal" href="img/graphics/1.jpg">
+                        <picture>
+                            <source srcset="img/graphics/1.jpg" type="image/jpg" />
+                            <source srcset="img/graphics/1.jpg" type="image/jpg" />
+                            <img src="img/graphics/1.jpg" alt="t-shirt" />
+                        </picture>
+                        <div class="graphic-block-description">
+                            <h3 class="graphic-title">T-Shirt Design</h3>
+                            <p class="graphic-desc">Design for My Client. The overall style must be luxury.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="graphic-block">
+                    <a class="graphic-block-toggle" data-micromodal-trigger="modal" href="img/graphics/2.jpg">
+                        <picture>
+                            <source srcset="img/graphics/2.jpg" type="image/png" />
+                            <source srcset="img/graphics/2.jpg" type="image/png" />
+                            <img src="img/graphics/2.jpg" alt="Hoodies" />
+                        </picture>
+                        <div class="graphic-block-description">
+                            <h3 class="graphic-title">Hoodies</h3>
+                            <p class="graphic-desc">Design This for a friend on his birthday.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="graphic-block">
+                    <a class="graphic-block-toggle" data-micromodal-trigger="modal" href="img/graphics/bowl.png">
+                        <picture>
+                            <source srcset="img/graphics/bowl.png" type="image/webp" />
+                            <source srcset="img/graphics/bowl.png" type="image/jpeg" />
+                            <img src="img/graphics/bowl.png" alt="graphics showcase bowl" />
+                        </picture>
+                        <div class="graphic-block-description">
+                            <h3 class="graphic-title">Bowl of Love</h3>
+                            <p class="graphic-desc">Packaging design for bowl of love, A restrurant that offer chinese food.</p>
+                        </div>
+                    </a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section id="about" class="section section-about">
+            <div class="container">
+                <header class="section-header">
+                    <h2 data-aos="fade-up">About Raygray</h2>
+                    <p data-aos="zoom-out" data-aos-delay="250">I love to make<span> imagination </span>into design, and I <span>love</span> what I do.</p>
+                </header>
+                <div class="about-block">
+                    <div class="about-block-overview">
+                        <div class="about-overview-avatar" data-aos="zoom-out">
+                            <picture>
+                                <source srcset="img/about-rayrgay.png" type="image/webp" />
+                                <source srcset="img/about-rayrgay.png" type="image/jpeg" />
+                                <img src="img/about-rayrgay.png" alt="raygray" />
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="about-block-description">
+                        <p data-aos="fade-up">
+                            Experienced freelancer with a strong track record in the digital landscape. Skilled in social media, web design, and UI/UX. My keen eye for detail and creative approach ensure optimal results in web design and user experience. I'm a versatile professional ready to contribute to diverse projects in the dynamic world of digital innovation.
+                        </p>
+                        <p data-aos="fade-up" data-aos-delay="200">
+                           In UI/UX and web design, my expertise perfectly aligns with my passion for software development, focusing on efficient and componentized UI development. I believe in the power of genuine passion for one's work, driving continuous motivation and self-improvement. With "me" in the equation, each project becomes an opportunity for personal and professional growth in the realm of UI/UX and web design.
+
+
+
+
+
+                        </p>
+                        <div class="about-block-skills" data-aos="fade-up" data-aos-delay="400">
+                            <h3>Profile</h3>
+                            <ul class="about-facts">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456.56 456.56">
+											<defs />
+											<path
+												d="M228.44 456.56c-9.2 0-17.92-2.91-25.22-8.4A391.5 391.5 0 0152.84 217.84a13.38 13.38 0 01-.29-1.87 181.58 181.58 0 01-3.7-36.56C48.84 80.5 129.32 0 228.25 0c98.95 0 179.46 80.49 179.46 179.42 0 13.14-1.41 26.16-4.2 38.71a12.67 12.67 0 01-.28 1.82c-20.54 90.11-72.82 170.46-147.19 226.22l-5.54 4.06c-.4.29-.82.56-1.25.8a42.06 42.06 0 01-20.82 5.53zM79.42 213.68a364.78 364.78 0 00139.84 212.93 15.25 15.25 0 0016.12 1.4l4.64-3.4c68.73-51.52 117.23-125.67 136.63-208.89.06-.61.15-1.23.3-1.84a151.82 151.82 0 003.9-34.46c0-84.12-68.44-152.56-152.59-152.56-84.12 0-152.56 68.44-152.56 152.56 0 11.01 1.17 22 3.47 32.64.12.54.2 1.08.25 1.62z"
+											/>
+											<path
+												d="M228.27 256.2c-42.34 0-76.79-34.45-76.79-76.78 0-42.34 34.45-76.8 76.79-76.8 42.35 0 76.8 34.45 76.8 76.8 0 42.33-34.45 76.77-76.8 76.77zm0-126.72a49.99 49.99 0 00-49.93 49.94 49.98 49.98 0 0049.93 49.92 50 50 0 0049.95-49.92 50 50 0 00-49.95-49.94z"
+											/>
+										</svg> Banihal, JK, India
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+											<path
+												d="M502.02 156.63a15 15 0 00-.03-28.27L261 43.32a15 15 0 00-9.98 0l-241 85.04a15 15 0 00-.03 28.27l95.46 33.94v97.85c0 16.15 16.85 29.8 50.08 40.59 28.96 9.4 64.64 14.58 100.48 14.58s71.52-5.18 100.48-14.58c33.23-10.78 50.08-24.44 50.08-40.59v-97.85l39.41-14.01v135.58a45.2 45.2 0 00-30.12 42.56 45.2 45.2 0 0030.12 42.55v57.28a15 15 0 0030 0v-57.28a45.2 45.2 0 0030.13-42.55 45.2 45.2 0 00-30.13-42.56V165.9zm-41.05 213.19c-8.34 0-15.12-6.79-15.12-15.13s6.78-15.12 15.12-15.12 15.13 6.79 15.13 15.13-6.79 15.12-15.13 15.12zM256 73.38l196.07 69.17L256 212.25l-196.07-69.7zm120.56 212.78c-2.88 2.9-13.17 9.84-36.4 16.46-24.78 7.07-54.67 10.97-84.16 10.97s-59.38-3.9-84.16-10.96c-23.23-6.63-33.52-13.57-36.4-16.47v-84.92l115.53 41.07a15 15 0 0010.05 0l115.53-41.07v84.92z"
+											/>
+										</svg> GNDU UNIVERSITY
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+											<defs />
+											<path
+												d="M467 120h-76v-15C391 47.1 343.9 0 286 0h-60c-57.9 0-105 47.1-105 105v15H45c-24.81 0-45 20.19-45 45v302c0 24.81 20.19 45 45 45h422c24.81 0 45-20.19 45-45V165c0-24.81-20.19-45-45-45zm-316-15c0-41.35 33.65-75 75-75h60c41.35 0 75 33.65 75 75v15h-30v-15c0-24.81-20.19-45-45-45h-60c-24.81 0-45 20.19-45 45v15h-30v-15zm150 0v15h-90v-15c0-8.27 6.73-15 15-15h60c8.27 0 15 6.73 15 15zm181 362c0 8.27-6.73 15-15 15H45c-8.27 0-15-6.73-15-15v-15h452v15zm0-45H30V269.11a106.17 106.17 0 0061 30.83V346a15 15 0 0015 15h60a15 15 0 0015-15v-45h150v45a15 15 0 0015 15h60a15 15 0 0015-15v-46.06a106.17 106.17 0 0061-30.83V422zM151 301v30h-30v-30h30zm-30-30v-30h30v30h-30zm270 30v30h-30v-30h30zm-30-30v-30h30v30h-30zm121-75c0 36.29-26.25 66.63-61 73.53V226a15 15 0 00-15-15h-60a15 15 0 00-15 15v45H181v-45a15 15 0 00-15-15h-60a15 15 0 00-15 15v43.53c-34.75-6.9-61-37.24-61-73.53v-31c0-8.27 6.73-15 15-15h422c8.27 0 15 6.73 15 15v31z"
+											/>
+										</svg> FreeLancer
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+											<defs />
+											<path
+												d="M437 0H75C33.64 0 0 33.64 0 75v362c0 41.36 33.64 75 75 75h362c41.36 0 75-33.64 75-75V75c0-41.36-33.64-75-75-75zm45 437c0 24.81-20.19 45-45 45H75c-24.81 0-45-20.19-45-45V75c0-24.81 20.19-45 45-45h362c24.81 0 45 20.19 45 45zm0 0"
+											/>
+											<path
+												d="M91 422h90V210H91zm30-182h30v152h-30zm0 0M331.09 210H331a89.83 89.83 0 00-30 5.1V210h-90v212h90V315c0-8.27 6.73-15 15-15s15 6.73 15 15v107h90V304.69c0-48.55-39.38-94.64-89.91-94.69zM391 392h-30v-77c0-24.81-20.19-45-45-45s-45 20.19-45 45v77h-30V240h30v30.02l24-18.03A59.46 59.46 0 01331 240h.06c31.93.03 59.94 30.26 59.94 64.69zm0 0M91 180h90V90H91zm30-60h30v30h-30zm0 0"
+											/>
+										</svg>
+                                    <a href="https://www.linkedin.com/in/ray-gray-9555411a1/" target="_blank" rel="noopener">linkedin/raygray</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about-block-skills" data-aos="fade-up" data-aos-delay="500">
+                            <h3>Expertise</h3>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>HTML/CSS/SASS</li>
+                                <li>React</li>
+                                <li>Node JS</li>
+                                <li>python</li>
+                                <li>java</li>
+                            </ul>
+                        </div>
+                        <div class="about-block-skills" data-aos="fade-up" data-aos-delay="600">
+                            <h3>Tech Tools</h3>
+                            <ul>
+                                <li>Github</li>
+                                <li>figma</li>
+                                <li>framer</li>
+                                <li>wordpress</li>
+                                <li>shopify</li>
+                                <li>sketch</li>
+                                <li>Google Analytics</li>
+                                <li>wondershare</li>
+                                <li>Blender</li>
+                                <li>Nicepage</li>
+                                <li>Bootstrap Studio</li>
+                                <li>Photoshop</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="section section-contact">
+        <div class="shape-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path
+						d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+						class="shape-fill"
+					></path>
+				</svg>
+        </div>
+        <div class="container">
+            <header class="section-header">
+                <h2 data-aos="fade-up" data-aos-delay="200">Get in touch</h2>
+                <p data-aos="fade-up" data-aos-delay="400">Let's discuss how I can help</p>
+            </header>
+            <div class="contact-block">
+                <p data-aos="fade" data-aos-delay="800">Got a project in mind? Send me a quick inquiry and I'll get back to you as soon as possible.</p>
+                <a data-aos="zoom-out" data-aos-delay="1000" class="contact-email" href="mailto:raygray031@gmail.com">raygray031@gmail.com</a>
+            </div>
+            <div data-aos="fade" data-aos-delay="1200" class="copyright" data-aos-offset="0">
+                &copy; 2024. Made with &#10084; by <a href="https://www.raygray.tech">Raygray</a>.
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal" aria-hidden="true">
+        <div class="modal-overlay" tabindex="-1" data-micromodal-close>
+            <button type="button" class="modal-close" aria-label="Close this dialog" data-micromodal-close></button>
+            <div class="modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+                <div class="modal-image"></div>
+                <main class="modal-content" id="modal-content">
+                    <h3 class="modal-title" id="modal-title"></h3>
+                    <div class="modal-description"></div>
+                    <button type="button" class="modal-btn" data-micromodal-close aria-label="Close this dialog">Close</button>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!--  Scripts-->
+    <script async type="text/javascript" src="js/app.min.js"></script>
+</body>
+
+</html>
